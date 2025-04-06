@@ -33,17 +33,17 @@ The dataset consists of historical sales and operations data from BlinkIt (India
 
 📐 DAX Measures Used
 
-Measure	DAX Code
+## DAX Measures Used
 
-➣ Total Sales	Total Sales = SUM('BlinkIT Grocery Data'[Sales])
+| **Measure**         | **DAX Code**                                                                 |
+|---------------------|------------------------------------------------------------------------------|
+| **Total Sales**     | `Total Sales = SUM('BlinkIT Grocery Data'[Sales])`                          |
+| **Average Sales**   | `Avg Sales = AVERAGE('BlinkIT Grocery Data'[Sales])`                        |
+| **Number of Items** | `No of Items = DISTINCTCOUNT('BlinkIT Grocery Data'[Item Identifier])`      |
+| **Average Rating**  | `Avg Rating = AVERAGE('BlinkIT Grocery Data'[Rating])`                      |
 
-➣ Average Sales	Avg Sales = AVERAGE('BlinkIT Grocery Data'[Sales])
 
-➣ Number of Items	No of Items = DISTINCTCOUNT('BlinkIT Grocery Data'[Item Identifier])
-
-➣ Average Rating	Avg Rating = AVERAGE('BlinkIT Grocery Data'[Rating])
-
-➣ These measures are bundled into a "Metrics" parameter for dynamic filtering in the FAT CONTENT visual.
+These measures are bundled into a "Metrics" parameter for dynamic filtering in the FAT CONTENT visual.
 
 
 
