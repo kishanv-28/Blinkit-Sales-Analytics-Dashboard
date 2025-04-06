@@ -33,7 +33,7 @@ The dataset consists of historical sales and operations data from BlinkIt (India
 
 📐 DAX Measures Used
 
-## DAX Measures Used
+
 
 | **Measure**         | **DAX Code**                                                                 |
 |---------------------|------------------------------------------------------------------------------|
