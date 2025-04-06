@@ -31,7 +31,7 @@ The dataset consists of historical sales and operations data from BlinkIt (India
 |--------|----------|
 | **Total Sales** | `Total Sales = SUM('BlinkIT Grocery Data'[Sales])` |
 | **Average Sales** | `Avg Sales = AVERAGE('BlinkIT Grocery Data'[Sales])` |
-| **Number of Items** ✅ *(Updated)* | `No of Items = DISTINCTCOUNT('BlinkIT Grocery Data'[Item Identifier])` |
+| **Number of Items** | `No of Items = DISTINCTCOUNT('BlinkIT Grocery Data'[Item Identifier])` |
 | **Average Rating** | `Avg Rating = AVERAGE('BlinkIT Grocery Data'[Rating])` |
 
 These measures are bundled into a **"Metrics"** parameter for dynamic filtering in the FAT CONTENT visual.
@@ -80,7 +80,7 @@ Reviewing successful 2018 strategies may guide new outlet launches.
 
 ---
 
-### 🏪 OUTLET SIZE (Donut Chart) ✅ *(Updated)*
+### 🏪 OUTLET SIZE (Donut Chart)
 **Purpose:** Visual breakdown of total sales by outlet size (Small, Medium, High).
 
 **Insight:**  
